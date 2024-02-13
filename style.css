@@ -86,7 +86,7 @@ a.contact-btn{
     gap: 2rem;
     width: min(100%,960px);
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 3rem 1rem;
     text-align: center;
 }
 .techs{
