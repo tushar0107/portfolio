@@ -1,8 +1,15 @@
 body{
-    margin: 0;
+    margin: 0;    
+    background-color: #d9d9d9;
 }    
 html{
     scroll-behavior: smooth;
+}
+:root{
+  --primary: salmon;
+  --secondary: ;
+  --text: white;
+  --background: white;
 }
 *{
     /* border: 1px solid red; */
@@ -43,7 +50,7 @@ h1{
 #header-nav > ul > li{
     margin: 0;
     padding: .2rem 1rem;
-    color: aqua;
+    color: var(--primary);
 }
 #banner-section{
     width: 100%;
@@ -61,7 +68,7 @@ h1{
     color: white;
 }
 #banner-text span{
-    color: aqua;
+    color: var(--primary);
 }
 a.contact-btn{
     position: absolute;
@@ -73,7 +80,7 @@ a.contact-btn{
     display: block;
     width: 150px;
     padding: 1rem 1.5rem;
-    background-color: aqua;
+    background-color: var(--primary);
     color: white;
     font-size: 1rem;
     border: none;
@@ -94,6 +101,7 @@ a.contact-btn{
     padding: 1rem;
     border-radius: 15px;
     box-shadow: 0 0 10px #0000003b;
+    background-color: var(--background);
 }
 .techs img{
     width: 100%;
@@ -118,6 +126,7 @@ a.contact-btn{
     padding: 1rem;
     box-shadow: 0 0 10px #0000003b;
     border-radius: 12px;
+    background-color: var(--background);
 }
 .project img{
     width: 100%;
