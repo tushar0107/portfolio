@@ -89,7 +89,7 @@ a.contact-btn{
 }
 #techs-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
     gap: 2rem;
     width: min(100%,960px);
     margin: 0 auto;
@@ -104,7 +104,7 @@ a.contact-btn{
     background-color: var(--background);
 }
 .techs img{
-    width: 100%;
+    width: 80%;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
@@ -119,6 +119,7 @@ a.contact-btn{
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 2rem;
     text-align: center;
+    padding: 1rem;
 }
 .project{
     position: relative;
